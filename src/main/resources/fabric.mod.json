@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pekesmegis",
+  "version": "${version}",
+
+  "name": "Peke's Megis",
+  "description": "Added an energy drink to minecraft!",
+  "authors": [
+    "TheMC"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "WTFPL",
+  "icon": "assets/pekesmegis/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pekes.megis.PekesMegis"
+    ]
+  },
+  "mixins": [
+    "pekesmegis.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
